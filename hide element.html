@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+          $("p").click(function(){
+
+          	$(this).hide();
+          })
+
+          $("#hide").click(function(){
+
+          	$(".mainP").toggle();
+          })
+
+		
+
+		 $("#show").click(function(){
+
+          	$(".mainP").show();
+          });
+
+		 });
+
+	
+	</script>
+
+	<p class="firstP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit debitis praesentium totam laborum quae eligendi quisquam temporibus vel non, accusamus, corrupti voluptas fuga labore atque ab molestiae suscipit. Atque libero doloribus necessitatibus magnam ullam facilis, eveniet totam modi ducimus repellat. Soluta eveniet quam quasi culpa accusamus nam nihil pariatur exercitationem!</p>
+
+     <p class="secondP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis eius inventore nostrum magnam cum id nulla voluptatem, nam doloremque vero mollitia laudantium, quae ipsam dolorem tempore eum ipsum esse consectetur fugiat. Quasi quaerat, harum omnis voluptates culpa excepturi tempora! Earum quasi ipsam facere, temporibus aspernatur esse, at quam deserunt dolores natus minima laborum explicabo incidunt harum est blanditiis veniam libero molestiae laudantium quod? Exercitationem beatae provident eos. Cupiditate illum reprehenderit praesentium odio soluta totam inventore modi, neque ex, asperiores natus aut et architecto, illo laborum nam recusandae temporibus consequatur sapiente! Dicta reprehenderit alias cum non odio. Neque eveniet, natus!</p>
+
+     <input type="button" name="" value="Hide">
+
+     <hr><hr><br><br>
+
+     <p class="mainP">
+     	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quos quam distinctio aliquid sed magnam officiis numquam dolor voluptatem. Consequuntur?
+     </p>
+
+     <input type="button" value="hide" id="hide">
+     <input type="button" value="show" id="show">
+</head>
+<body>
+
+</body>
+</html>
